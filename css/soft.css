@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+   
+}
+h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+p{
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+}
+header{
+    line-height: 60px; 
+    background-color: black; 
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around; 
+       
+}
+img{
+    margin-top: 18px;
+    height: 25px;
+    width: 125px;
+}
+a{
+    text-decoration: none;
+    color: rgba(133,135,137,255);
+    font-size: larger;
+
+}
+a:hover{
+    color: silver;
+    
+}
+a:active{
+    border: 1px solid black;
+    padding: 5px 25px 1px 25px ;
+}
+#h{
+    font-size: 50px;
+}
+#line{
+    border: .3px solid transparent;
+    height: 390px;
+    width: 5px;
+    float: left;
+    position: relative;
+    top: 15px;
+    right: 40px;
+    background-color: #0168b9;
+    background-image: linear-gradient(#0168b9, #4fe4fe);
+}
+button{
+    border: 1px solid transparent;
+    background-color: #0078d4;
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+    color: white;
+}
+
+#p1{
+    position: relative;
+    top: -30px;
+}
+#b1{
+    position: relative;
+    top: -30px;
+    left: 50px;
+
+}
+#cont1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+#cont2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+#cont3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+#cont4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.flexcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;  
+}
+#par1{
+    height: 300px;
+    width: 700px;
+    margin-top: -50px;
+}
+.pa1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#top{
+    padding: 20px;
+    margin: 30px;
+    background-color: gainsboro;
+    color: black;
+    height: 15px;
+    width: 7px;
+    font-size: larger;
+    border: 1px solid transparent;
+    margin-left: 600px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
